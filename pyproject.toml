@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "facebook-automation-suite"
+version = "1.0.0"
+authors = [
+  { name = "Mahmud Hasan", email = "naimsmahmud50@gmail.com" },
+]
+description = "Production-grade Facebook post automation and scheduling engine with stealth browser emulation."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Communications",
+    "Topic :: Internet :: WWW/HTTP :: Browsers",
+]
+dependencies = [
+    "playwright>=1.42.0",
+    "python-dotenv>=1.0.1",
+    "pyyaml>=6.0.1",
+    "pydantic>=2.6.4",
+    "schedule>=1.2.1",
+    "rich>=13.7.1",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/naimsmahmud50-dotcom/Facebook-Automation-"
+"Bug Tracker" = "https://github.com/naimsmahmud50-dotcom/Facebook-Automation-/issues"

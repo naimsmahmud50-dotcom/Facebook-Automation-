@@ -1,0 +1,37 @@
+# ==============================================================================
+# Facebook Automation Suite - General Campaign & Posting Settings
+# ==============================================================================
+
+app:
+  name: "Facebook Automation Suite"
+  version: "1.0.0"
+  debug_mode: true
+
+delays:
+  # Stealth humanized delay ranges (seconds)
+  min_action_delay: 2.5
+  max_action_delay: 6.0
+  typing_speed_min_ms: 50
+  typing_speed_max_ms: 180
+
+posting:
+  default_target: "feed" # options: "feed", "group", "page"
+  auto_upload_images: true
+  max_retries_per_post: 3
+  retry_delay_seconds: 15
+
+# Scheduled posting queues
+campaigns:
+  - id: "morning_insight"
+    title: "Morning Business Motivation"
+    target: "feed"
+    schedule_time: "09:00"
+    content: "Consistency in software engineering and automation is the real game changer. Never stop innovating! 🚀 #Tech #Automation"
+    images: []
+
+  - id: "afternoon_product_showcase"
+    title: "Tech Showcase"
+    target: "feed"
+    schedule_time: "14:30"
+    content: "Streamlining enterprise workflows with modern robotic process automation. Less repetitive work, more results. 💡 #Productivity"
+    images: []

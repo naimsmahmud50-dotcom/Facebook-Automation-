@@ -1,0 +1,18 @@
+# Core Automation Engine
+playwright>=1.42.0
+
+# Configuration & Environment
+python-dotenv>=1.0.1
+pyyaml>=6.0.1
+pydantic>=2.6.4
+
+# Scheduling & Workflow
+schedule>=1.2.1
+
+# Terminal UI & Formatting (Client-grade UX)
+rich>=13.7.1
+
+# Quality Assurance & Testing
+pytest>=8.1.1
+flake8>=7.0.0
+black>=24.3.0
