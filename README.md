@@ -96,7 +96,7 @@ Facebook-Automation-/
 
 ---
 
-## 🚀 Quickstart Guide
+## Quickstart Guide
 
 ### 1. Prerequisites
 - Python 3.10 or higher
